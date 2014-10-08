@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Use Github &amp; Bitbucket with different accounts on 1 machine - Professional Frontend Tips
+    </title>
+    <link rel="alternate" href="http://localhost:5000/feed.xml" type="application/rss+xml" title="Tips to be an professional Frontend Developer">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+    <script src="/js/main.js"></script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <div class="logo">
+          <h1>Use Github &amp; Bitbucket with different accounts on 1 machine</h1>
+          <p class="author">Written by <span class="author"><a href="mailto:raymon@raymonschouwenaar.nl">Raymon Schouwenaar</a></span>
+          </p>
+        </div>
+      </div>
+      <div class="scroll"><a class="scroll_down"><span class="entypo-down-open"></span></a></div>
+      <div class="nav">
+        <div class="top_title"><span class="title"></span></div>
+        <nav class="nav_bar">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Google</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Socialmedia</a></li>
+          </ul>
+        </nav>
+        <div class="toggle_nav"><a class="toggle"><span class="entypo-menu"></span></a></div>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p><img src="/articles/use-github-and-bitbucket-different-accounts-one-machine/background.jpg" alt="background"></p>
+<p>Do you use Git for your private development and for the company you work for, but want to use for example Github and Bitbucket with different accounts on 1 machine? That’s really easy to&nbsp;setup!</p>
+<p><span class="more"></span></p>
+<p>There are 2 ways you can arrange it. 1 way is to use the command prompt, the other way is with Sourcetree. In my explanation i will assume that you allready installed Git and/or Sourcetree and that your allready a bit familiar with how Git&nbsp;works.</p>
+<h2 id="-the-command-prompt-way-of-changing-the-username-and-email">“The Command Prompt” way of changing the username and&nbsp;email</h2>
+<p>If you use Git with the command prompt and want to change the username and email for an specific repository, than use this&nbsp;command:</p>
+<pre><code>git config user.name &quot;Username&quot;`
+git config user.email &#39;name@yourdomain.com&quot;
+</code></pre><p>So from now on, if you commit any change to your repo this username and email will be used. So easy is&nbsp;it!</p>
+<h2 id="-the-sourcetree-way-of-changing-the-username-and-email">“The SourceTree” way of changing the username and&nbsp;email</h2>
+<p>For those users who use <a href="http://www.sourcetreeapp.com/">SourceTree</a> it is also that easy! I assume you allready cloned an repo to your machine with SourceTree. If not just do that how you allways do&nbsp;that.</p>
+<p><strong>Select the settings of the repository</strong> <img src="/articles/use-github-and-bitbucket-different-accounts-one-machine/git-accounts-sourcetree-repo-settings.jpg" alt="select the settings of the repository in SourcTree"></p>
+<p><strong>Disable the checkbox and fill in your username and email</strong> <img src="/articles/use-github-and-bitbucket-different-accounts-one-machine/git-sourctree-change-username-email.jpg" alt="Disable the checkbox and fill in your username and email"></p>
+<h2 id="automatic-user-selection-based-on-domain-name">Automatic user selection based on domain&nbsp;name</h2>
+<p>So that’s it! I know there is an way to setup accounts connected to domain name of your Git repository. But haven’t that worked yet, so i will search for that. But <a href="https://confluence.atlassian.com/pages/viewpage.action?pageId=271943168">this article can help you to configure that</a>.</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Go back</a></div>
+        <section class="copy">
+          <hr>
+          <p>&copy; 2014 Raymon Schouwenaar &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a></p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
